@@ -1,18 +1,38 @@
-# Iqbalrahman-jpg Tap
+# Iqbal Rahman Homebrew Tap
 
-## How do I install these formulae?
+Homebrew Casks maintained by Iqbal Rahman.
 
-`brew install iqbalrahman-jpg/tap/<formula>`
+## Touch Bar Lyrics
 
-Or `brew tap iqbalrahman-jpg/tap` and then `brew install <formula>`.
+Touch Bar Lyrics displays synchronized Spotify lyrics on a MacBook Pro Touch
+Bar.
 
-Or, in a `brew bundle` `Brewfile`:
+Install it directly from this tap:
 
-```ruby
-tap "iqbalrahman-jpg/tap"
-brew "<formula>"
+```sh
+brew install --cask iqbalrahman-jpg/tap/touch-bar-lyrics
 ```
 
-## Documentation
+Upgrade to the latest release:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew update
+brew upgrade --cask iqbalrahman-jpg/tap/touch-bar-lyrics
+```
+
+Uninstall the app:
+
+```sh
+brew uninstall --cask iqbalrahman-jpg/tap/touch-bar-lyrics
+```
+
+Remove the app and its saved preferences:
+
+```sh
+brew uninstall --zap --cask iqbalrahman-jpg/tap/touch-bar-lyrics
+```
+
+Current releases are ad-hoc signed and not notarized. If macOS blocks the first
+launch, open **System Settings → Privacy & Security**, choose **Open Anyway** for
+Touch Bar Lyrics, and confirm **Open**. Only approve an app downloaded from the
+official [Touch Bar Lyrics repository](https://github.com/iqbalrahman-jpg/mac-touchbar-lyric).
