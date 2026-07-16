@@ -1,6 +1,6 @@
 cask "touch-bar-lyrics" do
-  version "0.2.1"
-  sha256 "ecabee990b6e189ea2dd96bf2012f66043c5f9556b779a9f631f81be2ae66434"
+  version "0.2.2"
+  sha256 "ef70ce9e89a337beaa749d026fa4c99fa52049d5e67b78e015ef838427c5e68b"
 
   url "https://github.com/iqbalrahman-jpg/mac-touchbar-lyric/releases/download/v#{version}/TouchBarLyrics-v#{version}-arm64.zip"
   name "Touch Bar Lyrics"
